@@ -9,7 +9,7 @@ contract DAO {
     IERC20 public token;
     uint public minimumQuorum;
     uint public debatingPeriod;
-    uint proposalsCounter;
+    uint public proposalsCounter;
     uint public testProp;
 
     enum ProposalStatus {
